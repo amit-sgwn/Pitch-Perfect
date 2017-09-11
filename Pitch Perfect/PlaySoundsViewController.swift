@@ -30,6 +30,14 @@ class PlaySoundsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func playSoundForButton(_ sender: UIButton) {
+        print("Play Sound Button Pressed")
+    }
+    
+    @IBAction func stopButtonPressed(_ sender: AnyObject) {
+        print("Stop Audio Button Pressed")
+    }
+    
 
     /*
     // MARK: - Navigation
